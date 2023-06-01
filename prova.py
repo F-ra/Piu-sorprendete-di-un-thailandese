@@ -17,12 +17,23 @@ print("", )
 def stringconcat(str1, str2):
     gulag = []
     a = 0
+    currentstr = str1
     for v in range(len(str1) + len(str2)):
-        gulag[a] = str1[a]
+        gulag.append(currentstr[a])
         a = a + 1
-        if a == (len(str1) - 1):
+        if a == (len(str1)):
             a = 0
+            currentstr = str2
+        if currentstr == str2 and a == len(str2):
             break
     print(gulag)
 
 stringconcat(xc, bum)
+
+# %%
+print("Bismillah")
+
+
+
+#coccodè
+# %%
