@@ -37,3 +37,4 @@ print("Bismillah")
 
 #coccodè
 # %%
+print("SCOPPIA :)")
